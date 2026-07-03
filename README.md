@@ -65,4 +65,14 @@ I am using this repository to practice writing clean, readable hardware descript
 | Always Nolatches | `procedures/always_nolatches.v` | Preventing latch synthesis in combinational decoder structures by preemptively assigning default low states to all output buses |
 
 
+## 5. More Verilog problems
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Conditional | `more_features/conditional.v` | Designing a parallelized min-finder tree architecture using nested dataflow ternary conditional operators |
+| Reduction | `more_features/reduction.v` | Utilizing unary reduction XOR operators to efficiently compute vector parity bit generation in hardware |
+| Gates100 | `more_features/gates100.v` | Scaling unary reduction operators across wide 100-bit input vectors for ultra-efficient combinational tree synthesis |
+| Vector100r | `more_features/vector100r.v` | Reversing a massive 100-bit vector bus using a combinational for-loop to unroll parallel bit-swapping hardware |
+| Popcount255 | `more_features/popcount255.v` | Implementing a 255-bit population counter (adder tree) using a combinational for-loop to accumulate high bits |
+
 *More sections will be added as I progress through the problem sets.*
