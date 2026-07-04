@@ -74,5 +74,9 @@ I am using this repository to practice writing clean, readable hardware descript
 | Gates100 | `more_features/gates100.v` | Scaling unary reduction operators across wide 100-bit input vectors for ultra-efficient combinational tree synthesis |
 | Vector100r | `more_features/vector100r.v` | Reversing a massive 100-bit vector bus using a combinational for-loop to unroll parallel bit-swapping hardware |
 | Popcount255 | `more_features/popcount255.v` | Implementing a 255-bit population counter (adder tree) using a combinational for-loop to accumulate high bits |
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Adder100i | `more_features/adder100i.v` | Structural 100-bit Ripple Carry Adder engineered via a loop-unrolled genvar construct starting at stage index 1 |
+| Bcdadd100 | `more_features/bcdadd100.v` | Chaining 100 4-bit BCD adder instances using an inline ternary operator for ultra-compact compile-time port routing |
 
 *More sections will be added as I progress through the problem sets.*
