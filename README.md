@@ -8,7 +8,7 @@ I am using this repository to practice writing clean, readable hardware descript
 
 ## 📂 Progress Tracker & Directory Map
 
-### 1. Verilog Language Basics
+## 1. Verilog Language Basics
 | Problem Statement | Solution Module | Concepts Covered |
 | :--- | :--- | :--- |
 | Getting Started | `getting_started_method1.v` <br> `getting_started_method2.v` | Initial repository setup, driving default high signals |
@@ -22,7 +22,7 @@ I am using this repository to practice writing clean, readable hardware descript
 | 7458 Chip | `7458_chip_method1.v` <br> `7458_chip_method2.v` | Multi-input complex AND-OR groupings, explicit wires vs. inline expression scaling |
 
 
-### 2.verilog vectors
+## 2.verilog vectors
 | Problem Statement | Solution Module | Concepts Covered |
 | :--- | :--- | :--- |
 | Vector0 | `vector/vector_method1.v` <br> `vector/vector_method2.v` | Bus indexing, bit extraction, unpacking vectors via discrete routing lanes |
@@ -74,9 +74,32 @@ I am using this repository to practice writing clean, readable hardware descript
 | Gates100 | `more_features/gates100.v` | Scaling unary reduction operators across wide 100-bit input vectors for ultra-efficient combinational tree synthesis |
 | Vector100r | `more_features/vector100r.v` | Reversing a massive 100-bit vector bus using a combinational for-loop to unroll parallel bit-swapping hardware |
 | Popcount255 | `more_features/popcount255.v` | Implementing a 255-bit population counter (adder tree) using a combinational for-loop to accumulate high bits |
-| Problem Statement | Solution Module | Concepts Covered |
-| :--- | :--- | :--- |
 | Adder100i | `more_features/adder100i.v` | Structural 100-bit Ripple Carry Adder engineered via a loop-unrolled genvar construct starting at stage index 1 |
 | Bcdadd100 | `more_features/bcdadd100.v` | Chaining 100 4-bit BCD adder instances using an inline ternary operator for ultra-compact compile-time port routing |
+
+
+# 6. Combinational Logic
+
+### Basic Gates
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Wire | `basic_gates/wire.v` | Implementing a basic single-bit input-to-output buffer pass-through. |
+| GND | `basic_gates/gnd.v` | Implementing a static low assignment to pull down an output bus/wire. |
+| Two Gates | `basic_gates/two_gates.v` | A composite design utilizing compound XOR and XNOR logic gates. |
+| Two Bit Equality | `basic_gates/two_bit_equality.v` | Vector magnitude comparison checking equality between two 2-bit buses. |
+| Simple Circuit A | `basic_gates/simple_circuit_A.v` | Implementing a localized sub-circuit module using simple bitwise AND-gate thresholds. |
+| Simple Circuit B | `basic_gates/simple_circuit_B.v` | Implementing a localized sub-circuit module using an XNOR boolean gate structure. |
+| Combine Circuits A and B | `basic_gates/combine_circuits_a_and_b.v` | Synthesizing a multi-stage composite circuit via explicit structural instantiation of sub-modules. |
+| 7420 Chip | `basic_gates/7420_chip.v` | Replicating a physical IC chip's logic using dual 4-input NAND gate operations. |
+| NOR | `basic_gates/nor.v` | Implementing a multi-input inverted OR logical expression. |
+| Another Gate | `basic_gates/another_gate.v` | Designing a custom logic element driven by masked AND-gate operations. |
+| More Logic Gates | `basic_gates/more_logic_gates.v` | A comprehensive testbench of standard 2-input combinational logic structures. |
+| Truth Tables | `basic_gates/truth_tables.v` | Designing a multi-input combinational logic block from raw truth tables using Sum-of-Products (SOP). |
+| Ringer | `basic_gates/ringer.v` | Control path routing for a phone ringer and vibration notification system based on mode selection. |
+| Thermostat | `basic_gates/thermostat.v` | Designing a smart environmental climate control system with integrated fan overrides. |
+| Population Count 3 | `basic_gates/popcount3.v` | A minimalist, blockless 3-bit population counter using continuous bitwise summation. |
+| Gates and Vectors | `basic_gates/gates_and_vectors.v` | Performing neighborwise parallel vector operations using array slicing shifts. |
+| Even More Gates | `basic_gates/gates_and_vector.v` | Up-scaling neighborwise vector operations to a high-density 100-bit bus using bitwise concatenation. |
 
 *More sections will be added as I progress through the problem sets.*
