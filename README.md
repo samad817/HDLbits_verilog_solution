@@ -102,4 +102,15 @@ I am using this repository to practice writing clean, readable hardware descript
 | Gates and Vectors | `basic_gates/gates_and_vectors.v` | Performing neighborwise parallel vector operations using array slicing shifts. |
 | Even More Gates | `basic_gates/gates_and_vector.v` | Up-scaling neighborwise vector operations to a high-density 100-bit bus using bitwise concatenation. |
 
+
+### Multiplexers
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| 2-to-1 Multiplexer | `combinational_logic/multiplexers/mux2to1.v` | Implementing basic routing logic using a single-line conditional ternary operator. |
+| 2-to-1 Bus Multiplexer | `combinational_logic/multiplexers/bus_mux2to1.v` | Scaling routing logic to a 100-bit wide bus vector using conditional ternary selection. |
+| 9-to-1 Multiplexer (16-bit) | `combinational_logic/multiplexers/bus_mux9to1.v` | Implementing a 9-channel 16-bit wide vector multiplexer with clean case-default fallback logic. |
+| 256-to-1 Multiplexer | `combinational_logic/multiplexers/mux256to1.v` | Dynamically indexing a 256-bit input vector using a variable selection bus expression. |
+| 256-to-1 Vector MUX (4-bit) | `combinational_logic/multiplexers/4bit_mux256to1.v` | Utilizing indexed part-select (`+:`) syntax to dynamically extract multi-bit vector segments. |
+
 *More sections will be added as I progress through the problem sets.*
