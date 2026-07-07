@@ -113,4 +113,17 @@ I am using this repository to practice writing clean, readable hardware descript
 | 256-to-1 Multiplexer | `combinational_logic/multiplexers/mux256to1.v` | Dynamically indexing a 256-bit input vector using a variable selection bus expression. |
 | 256-to-1 Vector MUX (4-bit) | `combinational_logic/multiplexers/4bit_mux256to1.v` | Utilizing indexed part-select (`+:`) syntax to dynamically extract multi-bit vector segments. |
 
+
+### Arithmetic Circuits
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Half Adder | `combinational_logic/arithmetic_circuits/half_adder.v` | Implementing basic 1-bit binary addition using XOR and AND logic gates. |
+| Full Adder | `combinational_logic/arithmetic_circuits/fadd.v` | Implementing a 1-bit full adder with carry-in using parity XOR and majority logic functions. |
+| 3-Bit Ripple Carry Adder | `combinational_logic/arithmetic_circuits/adder3.v` | Connecting multiple full-adder submodules structurally to form a multi-bit ripple carry chain. |
+| 4-Bit Unsigned Adder | `combinational_logic/arithmetic_circuits/adder4.v` | Utilizing Verilog context-determined expression widths to naturally capture carry-out bits. |
+| Signed Overflow Detector | `combinational_logic/arithmetic_circuits/overflow_adder.v` | Implementing 2's complement signed overflow detection using sign-bit anomaly logic. |
+| 100-Bit Ripple Carry Adder | `combinational_logic/arithmetic_circuits/adder100.v` | Implementing a large-scale 100-bit adder using behavioral concatenation for carry-out capture. |
+| 4-Digit BCD Adder | `combinational_logic/arithmetic_circuits/bcd_adder16.v` | Cascading multiple 4-bit BCD full adder submodules structurally to handle decimal arithmetic. |
+
 *More sections will be added as I progress through the problem sets.*
