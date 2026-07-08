@@ -126,4 +126,18 @@ I am using this repository to practice writing clean, readable hardware descript
 | 100-Bit Ripple Carry Adder | `combinational_logic/arithmetic_circuits/adder100.v` | Implementing a large-scale 100-bit adder using behavioral concatenation for carry-out capture. |
 | 4-Digit BCD Adder | `combinational_logic/arithmetic_circuits/bcd_adder16.v` | Cascading multiple 4-bit BCD full adder submodules structurally to handle decimal arithmetic. |
 
+
+### Karnaugh Maps
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| 3-Variable K-Map (kmap1) | `combinational_logic/karnaugh_maps/kmap1.v` | Implementing simplified SOP logic from a 3-input truth table using bitwise OR gates. |
+| 4-Variable K-Map (kmap2) | `combinational_logic/karnaugh_maps/kmap2.v` | Implementing minimized Sum-of-Products (SOP) expressions from a 4-variable grid layout. |
+| 4-Variable K-Map (kmap3) | `combinational_logic/karnaugh_maps/kmap3.v` | Simplifying a 4-variable truth table with strategic minterm grouping into a minimal two-term expression. |
+| 4-Variable K-Map (kmap4) | `combinational_logic/karnaugh_maps/kmap4.v` | Identifying a checkerboard K-map pattern to implement efficient multi-variable XOR parity logic. |
+| Minimum SOP and POS (kmap5) | `combinational_logic/karnaugh_maps/kmap5.v` | Implementing and comparing minimized Sum-of-Products (SOP) and Product-of-Sums (POS) logic from a single K-map. |
+| Karnaugh Map Circuit (kmap6) | `combinational_logic/karnaugh_maps/kmap6.v` | Implementing minimized logic functions from a 4-variable K-map using vector-indexed inputs. |
+| Karnaugh Map Circuit 2 (kmap7) | `combinational_logic/karnaugh_maps/kmap7.v` | Extracting multi-term minimal SOP expressions from a custom 4-variable vector-indexed truth table. |
+| K-Map to Multiplexer (kmap8) | `combinational_logic/karnaugh_maps/kmap8.v` | Driving multiplexer data inputs with simplified Boolean functions to implement target logic maps. |
+
 *More sections will be added as I progress through the problem sets.*
