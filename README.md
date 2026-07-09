@@ -140,4 +140,21 @@ I am using this repository to practice writing clean, readable hardware descript
 | Karnaugh Map Circuit 2 (kmap7) | `combinational_logic/karnaugh_maps/kmap7.v` | Extracting multi-term minimal SOP expressions from a custom 4-variable vector-indexed truth table. |
 | K-Map to Multiplexer (kmap8) | `combinational_logic/karnaugh_maps/kmap8.v` | Driving multiplexer data inputs with simplified Boolean functions to implement target logic maps. |
 
+
+# 7. Sequential Logic
+
+### Latches and Flip-Flops
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| D Flip-Flop | `sequential_logic/latches_and_flip_flops/dff.v` | Implementing basic sequential storage using clocked always blocks and non-blocking assignments. |
+| 8-Bit D Flip-Flop | `sequential_logic/latches_and_flip_flops/dff8.v` | Expanding sequential storage to multi-bit wide register vectors synchronized to a clock edge. |
+| 8-Bit D Flip-Flop with Synchronous Reset | `sequential_logic/latches_and_flip_flops/dff8r.v` | Managing register clearing using synchronous reset controls evaluated on the active clock edge. |
+| 8-Bit D Flip-Flop with Reset Value (Falling Edge) | `sequential_logic/latches_and_flip_flops/dff8p.v` | Initializing registers to a non-zero hex value on a falling clock edge condition. |
+| 8-Bit D Flip-Flop with Asynchronous Reset | `sequential_logic/latches_and_flip_flops/dff8a.v` | Utilizing sensitivity lists to enforce immediate asynchronous register resetting independent of the clock. |
+| 16-Bit D Flip-Flop with Byte Enable | `sequential_logic/latches_and_flip_flops/dff16e.v` | Implementing active-low synchronous resets alongside selective multi-byte write enables. |
+| D-Latch | `sequential_logic/latches_and_flip_flops/latch.v` | Utilizing combinational always blocks with incomplete branch conditions to infer a level-sensitive transparent latch. |
+| DFF with Asynchronous Reset | `sequential_logic/latches_and_flip_flops/dff_ar.v` | Implementing a single-bit flip-flop containing immediate asynchronous active-high override capabilities. |
+| DFF with Synchronous Reset | `sequential_logic/latches_and_flip_flops/dff_sr.v` | Building edge-aligned reset control logic that evaluates states purely on the clock edge transition. |
+
 *More sections will be added as I progress through the problem sets.*
