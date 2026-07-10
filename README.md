@@ -156,5 +156,14 @@ I am using this repository to practice writing clean, readable hardware descript
 | D-Latch | `sequential_logic/latches_and_flip_flops/latch.v` | Utilizing combinational always blocks with incomplete branch conditions to infer a level-sensitive transparent latch. |
 | DFF with Asynchronous Reset | `sequential_logic/latches_and_flip_flops/dff_ar.v` | Implementing a single-bit flip-flop containing immediate asynchronous active-high override capabilities. |
 | DFF with Synchronous Reset | `sequential_logic/latches_and_flip_flops/dff_sr.v` | Building edge-aligned reset control logic that evaluates states purely on the clock edge transition. |
+| DFF with XOR Gate | `sequential_logic/latches_and_flip_flops/dff_xor.v` | Designing a feedback loop using an XOR gate to implement toggle flag behavior. |
+| DFF with MUX Control | `sequential_logic/latches_and_flip_flops/dff_mux.v` | Integrating a 2-to-1 multiplexer style select line ahead of a register to toggle input streams. |
+| Clocked Macrocell Circuit (ece241_2014_q4) | `sequential_logic/latches_and_flip_flops/ece241_2014_q4.v` | Implementing complex multi-mux input routing circuits featuring selective load and clock enable priorities. |
+| Multi-Feedback Sequential Circuit (ece241_2013_q7) | `sequential_logic/latches_and_flip_flops/ece241_2013_q7.v` | Tracking and aggregating parallel, mixed-gate feedback registers into a final combinational NOR output. |
+| JK Flip-Flop | `sequential_logic/latches_and_flip_flops/jk_ff.v` | Designing a standard JK storage block using its foundational boolean characteristic feedback equation. |
+| Positive Edge Detector | `sequential_logic/latches_and_flip_flops/edgedetect.v` | Capturing low-to-high signal transitions across an 8-bit vector by comparing synchronous history states. |
+| Dual Edge Detector | `sequential_logic/latches_and_flip_flops/edgedetect3.v` | Exploiting XOR gate properties to catch both rising and falling transition phases uniformly. |
+| Sticky Edge Capture Register | `sequential_logic/latches_and_flip_flops/edgecapture.v` | Combining falling edge detection with bitwise OR accumulation registers to lock transient state triggers. |
+| Dual-Edge Triggered Flip-Flop | `sequential_logic/latches_and_flip_flops/dualedge.v` | Creating dual-edge capture mechanisms through parallel edge-specific registers multiplexed by the clock. |
 
 *More sections will be added as I progress through the problem sets.*
