@@ -166,4 +166,15 @@ I am using this repository to practice writing clean, readable hardware descript
 | Sticky Edge Capture Register | `sequential_logic/latches_and_flip_flops/edgecapture.v` | Combining falling edge detection with bitwise OR accumulation registers to lock transient state triggers. |
 | Dual-Edge Triggered Flip-Flop | `sequential_logic/latches_and_flip_flops/dualedge.v` | Creating dual-edge capture mechanisms through parallel edge-specific registers multiplexed by the clock. |
 
+
+### Counters
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| 4-Bit Binary Counter | `sequential_logic/counters/count4.v` | Designing basic modulo-16 up-counters utilizing synchronous active-high clear control blocks. |
+| Decade Counter | `sequential_logic/counters/count10.v` | Creating a modulo-10 BCD up-counter by truncating natural register overflows at a specified count threshold. |
+| 1-to-10 Decade Counter | `sequential_logic/counters/count1to10.v` | Implementing a custom range counter that offsets both the baseline start value and terminal boundary state. |
+| Slow Decade Counter | `sequential_logic/counters/slow_decade_counter.v` | Utilizing an execution gate line (Clock Enable) to safely modulate and slow down state machine updates. |
+| Counter with Period 12 | `sequential_logic/counters/count_period12.v` | Instantiating 4-bit macro counters and controlling terminal load flags to alter state sequences structurally. |
+
 *More sections will be added as I progress through the problem sets.*
