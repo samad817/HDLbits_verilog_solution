@@ -176,5 +176,8 @@ I am using this repository to practice writing clean, readable hardware descript
 | 1-to-10 Decade Counter | `sequential_logic/counters/count1to10.v` | Implementing a custom range counter that offsets both the baseline start value and terminal boundary state. |
 | Slow Decade Counter | `sequential_logic/counters/slow_decade_counter.v` | Utilizing an execution gate line (Clock Enable) to safely modulate and slow down state machine updates. |
 | Counter with Period 12 | `sequential_logic/counters/count_period12.v` | Instantiating 4-bit macro counters and controlling terminal load flags to alter state sequences structurally. |
+| 12-Hour Clock Divider / BCD Counter | `sequential_logic/counters/countbcd.v` | Cascading multi-stage BCD counters to achieve exact synchronous clock frequency division. |
+| 4-Digit BCD Counter (0000-9999) | `sequential_logic/counters/count10000.v` | Tracking multi-digit decimal states synchronously by applying continuous execution gate vectors. |
+| 12-Hour Digital Clock | `sequential_logic/counters/countslow.v` | Designing nested BCD counter networks featuring asynchronous cross-boundary status flags and multi-index resets. |
 
 *More sections will be added as I progress through the problem sets.*
