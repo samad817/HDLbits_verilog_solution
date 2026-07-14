@@ -180,4 +180,13 @@ I am using this repository to practice writing clean, readable hardware descript
 | 4-Digit BCD Counter (0000-9999) | `sequential_logic/counters/count10000.v` | Tracking multi-digit decimal states synchronously by applying continuous execution gate vectors. |
 | 12-Hour Digital Clock | `sequential_logic/counters/countslow.v` | Designing nested BCD counter networks featuring asynchronous cross-boundary status flags and multi-index resets. |
 
+
+### Shift Registers
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| 4-Bit Shift Register | `sequential_logic/shift_registers/shift4.v` | Implementing an asynchronous reset right-shift vector using priority control multiplexing and bit concatenation. |
+| 100-Bit Left/Right Rotator | `sequential_logic/shift_registers/rotate100.v` | Constructing bi-directional cyclic bit rotation loops using structural vector concatenation slices. |
+| 64-Bit Arithmetic Shifter | `sequential_logic/shift_registers/shift18.v` | Designing variable-amount logical left and sign-replicating arithmetic right hardware shifters. |
+
 *More sections will be added as I progress through the problem sets.*
