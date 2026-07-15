@@ -188,5 +188,7 @@ I am using this repository to practice writing clean, readable hardware descript
 | 4-Bit Shift Register | `sequential_logic/shift_registers/shift4.v` | Implementing an asynchronous reset right-shift vector using priority control multiplexing and bit concatenation. |
 | 100-Bit Left/Right Rotator | `sequential_logic/shift_registers/rotate100.v` | Constructing bi-directional cyclic bit rotation loops using structural vector concatenation slices. |
 | 64-Bit Arithmetic Shifter | `sequential_logic/shift_registers/shift18.v` | Designing variable-amount logical left and sign-replicating arithmetic right hardware shifters. |
+| 5-Bit LFSR | `sequential_logic/shift_registers/lfsr5.v` | Constructing pseudo-random sequence generators via linear polynomial feedback tap networks. |
+| 3-Bit Structural LFSR | `sequential_logic/shift_registers/lfsr3.v` | Mapping physical board components (SW/KEY/LEDR) to internal multiplexed linear feedback paths. |
 
 *More sections will be added as I progress through the problem sets.*
