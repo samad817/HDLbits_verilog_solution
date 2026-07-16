@@ -190,5 +190,9 @@ I am using this repository to practice writing clean, readable hardware descript
 | 64-Bit Arithmetic Shifter | `sequential_logic/shift_registers/shift18.v` | Designing variable-amount logical left and sign-replicating arithmetic right hardware shifters. |
 | 5-Bit LFSR | `sequential_logic/shift_registers/lfsr5.v` | Constructing pseudo-random sequence generators via linear polynomial feedback tap networks. |
 | 3-Bit Structural LFSR | `sequential_logic/shift_registers/lfsr3.v` | Mapping physical board components (SW/KEY/LEDR) to internal multiplexed linear feedback paths. |
+| 32-Bit LFSR | `sequential_logic/shift_registers/lfsr32.v` | Implementing a maximal-length 32-bit Galois LFSR using structural bit-slice XOR feedback taps. |
+| 4-Bit Delay Shift Register | `sequential_logic/shift_registers/m2014_q4b.v` | Creating a standard synchronous active-low delay shift line for serial-to-parallel pipelines. |
+| Multiplexed DFF Shift Register | `sequential_logic/shift_registers/ece241_2013_q12.v` | Structuring cascaded macro-logic cells using hierarchical sub-module instantiations. |
+| Shift Register as LUT | `sequential_logic/shift_registers/3-input_LUT.v` | Designing a 3-input programmable Look-Up Table (LUT) using a shift register as dynamic RAM. |
 
 *More sections will be added as I progress through the problem sets.*
