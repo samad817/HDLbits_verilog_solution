@@ -195,4 +195,13 @@ I am using this repository to practice writing clean, readable hardware descript
 | Multiplexed DFF Shift Register | `sequential_logic/shift_registers/ece241_2013_q12.v` | Structuring cascaded macro-logic cells using hierarchical sub-module instantiations. |
 | Shift Register as LUT | `sequential_logic/shift_registers/3-input_LUT.v` | Designing a 3-input programmable Look-Up Table (LUT) using a shift register as dynamic RAM. |
 
+
+### Cellular Automata
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Rule 90 1D Automaton | `sequential_logic/cellular_automata/rule90.v` | Implementing a 1-dimensional cellular automaton using highly efficient, vectorized parallel shift and XOR array operations. |
+| Rule 110 1D Automaton | `sequential_logic/cellular_automata/rule110.v` | Implementing a Turing-complete 1D cellular automaton utilizing non-symmetric, bitwise boolean equations.|
+
+
 *More sections will be added as I progress through the problem sets.*
