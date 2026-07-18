@@ -202,6 +202,7 @@ I am using this repository to practice writing clean, readable hardware descript
 | :--- | :--- | :--- |
 | Rule 90 1D Automaton | `sequential_logic/cellular_automata/rule90.v` | Implementing a 1-dimensional cellular automaton using highly efficient, vectorized parallel shift and XOR array operations. |
 | Rule 110 1D Automaton | `sequential_logic/cellular_automata/rule110.v` | Implementing a Turing-complete 1D cellular automaton utilizing non-symmetric, bitwise boolean equations.|
+| Conway's Game of Life | `sequential_logic/cellular_automata/conwaylife.v` | Designing a 2D toroidal wrap-around processing array utilizing unrolled parallel loops and coordinate mapping. |
 
 
 *More sections will be added as I progress through the problem sets.*
