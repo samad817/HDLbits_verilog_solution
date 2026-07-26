@@ -205,4 +205,12 @@ I am using this repository to practice writing clean, readable hardware descript
 | Conway's Game of Life | `sequential_logic/cellular_automata/conwaylife.v` | Designing a 2D toroidal wrap-around processing array utilizing unrolled parallel loops and coordinate mapping. |
 
 
+### Finite State Machines
+
+| Problem Statement | Solution Module | Concepts Covered |
+| :--- | :--- | :--- |
+| Simple FSM 1 (Asynchronous Reset) | `sequential_logic/fsm/fsm1.v` | Designing a basic two-state Moore state machine using 3-block separation and asynchronous reset sensitivity. |
+| Simple FSM 1 (Synchronous Reset) | `sequential_logic/fsm/fsm1s.v` | Implementing synchronous reset state register transitions in a 2-state Moore FSM. |
+
+
 *More sections will be added as I progress through the problem sets.*
