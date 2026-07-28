@@ -214,6 +214,7 @@ I am using this repository to practice writing clean, readable hardware descript
 | Simple FSM 2 (Asynchronous Reset) | `sequential_logic/fsm/fsm2.v` | Implementing JK-flip-flop style state transition logic (`j` sets, `k` resets) with asynchronous reset. |
 | Simple FSM 2 (Synchronous Reset) | `sequential_logic/fsm/fsm2s.v` | Converting JK-style state transitions to use synchronous reset logic on the clock edge. |
 | Simple state transition 3 | `sequential_logic/fsm/fsm3.v` | Designing a 4-state Moore FSM with 2-bit state encoding and asynchronous reset. |
+| Simple FSM 3 (One-Hot Logic) | `sequential_logic/fsm/fsm3onehot.v` | Deriving direct Boolean next-state logic equations for a 4-state one-hot encoded FSM. |
 
 
 *More sections will be added as I progress through the problem sets.*
